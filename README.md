@@ -1,3 +1,5 @@
+(Forked version for projects that don't support ESM modules)
+
 # random-words
 
 ## Generate one or more common English words
@@ -103,12 +105,11 @@ console.log(count());
 //output: 1952
 
 console.log(count({ minLength: 5 }));
-//output: 1318 
+//output: 1318
 
 console.log(count({ maxLength: 7 }));
 //output: 1649
 
 console.log(count({ minLength: 5, maxLength: 7 }));
 //output: 1015
-
 ```
